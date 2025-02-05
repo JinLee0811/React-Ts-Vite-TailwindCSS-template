@@ -1,50 +1,76 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 React + TypeScript + Vite + Tailwind CSS
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ⚡ A modern and fast frontend template built with **Vite**, **React**, **TypeScript**, and **Tailwind CSS**.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📂 Project Structure  
+```
+my-app
+│── src/
+│   ├── assets/       # Static assets (logos, images)
+│   ├── components/   # Reusable components
+│   ├── pages/        # Page components
+│   ├── App.tsx       # Main application file
+│   ├── main.tsx      # Entry point
+│── public/           # Static files
+│── index.html        # Main HTML file
+│── package.json      # Dependencies
+│── tailwind.config.js # Tailwind CSS config
+│── tsconfig.json     # TypeScript config
+│── vite.config.ts    # Vite config
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🛠 Installation & Setup  
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-github-repo.git
+cd your-github-repo
 ```
+
+### 2️⃣ Install Dependencies  
+```bash
+npm install
+```
+
+### 3️⃣ Run the Development Server  
+```bash
+npm run dev
+```
+Then open `http://localhost:5173` in your browser.
+
+---
+
+## 🚀 Built With  
+- **[React](https://reactjs.org/)** – A JavaScript library for building user interfaces  
+- **[TypeScript](https://www.typescriptlang.org/)** – Strongly typed JavaScript  
+- **[Vite](https://vitejs.dev/)** – A fast build tool for modern web apps  
+- **[Tailwind CSS](https://tailwindcss.com/)** – A utility-first CSS framework  
+
+---
+
+## 📸 Screenshots   
+<img width="983" alt="Screenshot 2025-02-05 at 12 30 04 PM" src="https://github.com/user-attachments/assets/894fe6f3-8c9f-4812-abc5-978cc21c11fb" />
+
+---
+
+## 🔗 Links  
+- 💻 **Source Code:** [GitHub Repository](https://github.com/your-github-repo)  
+
+---
+
+## 📜 License  
+MIT License © 2025 Jin Lee  
+```
+
+---
